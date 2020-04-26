@@ -1,0 +1,126 @@
+*{
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0px;
+}
+
+#name{
+  font-family: Rajdhani;
+  font-size: 6em; /* 60px */
+  text-align: center;
+  
+}
+
+#last-name{
+  font-size: 1.2em;  /* 70px */
+  color: red;
+}
+
+.head{
+  font-family: Rajdhani;
+  font-size: 10em;
+  margin-left: 20px;
+}
+
+#greetings{
+  font-family: Spartan;
+  font-size: 25px;
+  text-align: center;  
+}
+
+#designation{
+  color: #909a93;
+}
+
+#litte {
+  position: relative;
+  top: 40px;
+  left: 30px;
+  font-size: 0.18em;
+}
+
+#me{
+  font-size: 0.3em;  
+  position: relative;
+  top: -100px;
+  left: 380px;
+}
+
+.FontGeneral{
+  font-family: Spartan;
+  font-size: 15px;
+}
+
+.centerText{
+  text-align: center;
+}
+
+nav{
+  display: flex;
+  flex-direction: row-reverse ;
+  
+  
+}
+
+#myImage{
+  width: 300px;
+  object-position: -85px -55px;
+}
+
+div.cropImage{
+  margin: 10px auto;
+  width: 170px;
+  height: 170px;
+  border-radius: 50%;
+  background-color: green;
+  overflow: hidden;
+}
+
+body {
+  font-family: Spartan;
+}
+
+.flexbox{
+  display: flex;
+  flex-direction: column;
+}
+
+.page{
+  height: 100vh;
+  width: 98.5vw;
+  margin: 0px;  
+}
+
+.horizontally-centered {
+  margin:0px auto;
+}
+
+.vertically-centered{
+  margin: auto 0px;
+}
+
+.centered {
+  margin: auto;
+}
+
+nav > a{
+  color: #75a7f3;
+  text-decoration: none;
+  font-weight: bolder; 
+}
+
+.horizontal-spacing{
+  margin-right: 1rem;
+}
+
+/* 
+.temp{
+  background-color: #e78e8e;
+} */
+
+/* .border{
+  border: solid;
+  border-color: #000000;
+} */
