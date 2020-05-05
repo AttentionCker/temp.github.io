@@ -1,0 +1,122 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+    font-family: Spartan;
+}
+
+/* ids */
+#greetings {
+  font-family: Spartan;
+  font-size: 12px;
+  text-align: center;
+}
+
+#name {
+  font-family: Rajdhani;
+  font-size: 3em; /* 60px */
+  text-align: center;
+}
+
+#last-name{
+    font-size: 1.2em;  /* 70px */
+    color: red;      
+}
+
+#profile-img {
+  margin: 10px auto;
+  width: 170px;
+  height: 170px;
+  border-radius: 50%;
+  background-color: white;
+  overflow: hidden;
+}
+
+#profile-img > img {
+    width: 300px;
+    object-position: -85px -55px;
+}
+
+#designation{
+    color: #909a93;
+    text-align: center;
+}
+  
+
+/* classes */
+[class*="col-"] {
+  /* For mobile phones: */
+  width: 100%;
+  float: left;
+  padding: 1px;
+  border: 0px solid cyan;
+}
+
+
+
+
+/* =============================================================================== */
+
+        /* For desktop: */
+@media only screen and (min-width: 768px) {
+  .col-1 {
+    width: 8.33%;
+  }
+  .col-2 {
+    width: 16.66%;
+  }
+  .col-3 {
+    width: 25%;
+  }
+  .col-4 {
+    width: 33.33%;
+  }
+  .col-5 {
+    width: 41.66%;
+  }
+  .col-6 {
+    width: 50%;
+  }
+  .col-7 {
+    width: 58.33%;
+  }
+  .col-8 {
+    width: 66.66%;
+  }
+  .col-9 {
+    width: 75%;
+  }
+  .col-10 {
+    width: 83.33%;
+  }
+  .col-11 {
+    width: 91.66%;
+  }
+  .col-12 {
+    width: 100%;
+  }
+
+  #greetings {
+    font-family: Spartan;
+    font-size: 25px;
+    text-align: center;
+  }
+  
+  #name {
+    font-family: Rajdhani;
+    font-size: 6em; /* 60px */
+    text-align: center;
+  }
+
+  #last-name{
+    font-size: 1.2em;  /* 70px */
+    color: red;      
+  }
+
+}
+
+.blank {
+  /* Blank Space */
+}
+
